@@ -15,5 +15,4 @@ password: Astros2023!
 search_base: OU=Computers,OU=lab,DC=autodotes,DC=local
 
 attributes:
-  dnsHostName:
-    inventory_hostname: this
+  inventory_hostname: ansible_host
