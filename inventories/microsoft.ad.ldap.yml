@@ -7,4 +7,13 @@ plugin: microsoft.ad.ldap
 # password: <password>
 ### End custom credential type ###
 
+server: 192.168.0.66
+port: 389
+username: zach@autodotes.local
+password: Astros2023!
+
 search_base: OU=Computers,OU=lab,DC=autodotes,DC=local
+
+attributes:
+  dnsHostName:
+    inventory_hostname: this
